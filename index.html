@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">Juego Snake</h1>
+    <div id="bannerRotarTelefono" class="esconder">
+        <div>Usa tu teléfono en modo vertical para jugar</div> 
+        <button id="bottonCerrarBanner">OK</button>
+    </div>
+    <div class="juego">
+        <div id="contenidoNintendo">
+            <div id="puntaje">PUNTOS: 0</div>
+            <div class="juegoOverlay">
+                <img class="nintendo" src="nintendo.png" alt="">
+                <canvas id="juegoCanvas" width="600" height="600"></canvas>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="js/Inicios.js"></script> -->
+    <script src="js/culebra.js"></script>
+</body>
+</html>
